@@ -9,10 +9,20 @@ def compound_interest(principal, rate, time):
 
     Returns:
     float: Das Endguthaben der Investition.
+
+    Raises:
+    ValueError: Wird geworfen, wenn die Laufzeit negativ ist.
     """
     # TODO: Implementieren Sie die Funktion rekursiv
-    pass
+
+    if time < 0:
+        raise ValueError("Die Laufzeit kann nicht negativ sein.")
+
+    if time == 0:
+        return principal
+    else:
+        return compound_interest(principal * (1 + rate), rate, time - 1)
 
 
 if __name__ == '__main__':
-    compound_interest(1000, 0.05, 10)
+    compound_interest(1000, 0.05, -10)
