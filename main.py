@@ -17,4 +17,4 @@ def compound_interest(principal, rate, time):
 
 
 if __name__ == '__main__':
-    compound_interest(1000, 0.05, -10)
+    compound_interest(1000, 0.05, 10)
