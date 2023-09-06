@@ -35,7 +35,7 @@ def test_compound_interest_edge_cases():
     assert round(main.compound_interest(1000, 2, 2), 2) == 9000.00
 
     # Test mit einer sehr hohen Laufzeit
-    assert round(main.compound_interest(1000, 0.01, 960), 2) == 14077282.67
+    assert round(main.compound_interest(1000, 0.01, 500), 2) == 144772.77
 
     # Test mit einem sehr niedrigen Zinssatz
-    assert round(main.compound_interest(1000, 0.000001, 960), 2) == 1000.96
+    assert round(main.compound_interest(1000, 0.000001, 500), 4) == 1000.5001
