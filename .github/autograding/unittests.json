@@ -1,0 +1,14 @@
+[
+  {
+    "name": "test_compound_interest",
+    "function": "test_compound_interest",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_compound_interest_edge_cases",
+    "function": "test_compound_interest_edge_cases",
+    "timeout": 10,
+    "points": 1
+  }
+]
