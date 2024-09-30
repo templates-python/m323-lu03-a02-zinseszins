@@ -24,5 +24,5 @@ def compound_interest(principal, rate, time):
         return compound_interest(principal * (1 + rate), rate, time - 1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     compound_interest(1000, 0.05, -10)
