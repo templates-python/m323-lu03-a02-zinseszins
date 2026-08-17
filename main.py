@@ -1,3 +1,8 @@
+"""Zinseszins-Berechnung.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu03/aufgaben/zinseszins
+"""
+
 def compound_interest(principal, rate, time):
     """
     Berechnet das Endguthaben einer Investition unter Berücksichtigung des Zinseszinses.
